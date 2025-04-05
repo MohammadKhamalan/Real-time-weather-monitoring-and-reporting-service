@@ -10,11 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="WeatherMonitoringSystem\Configuration\botsConfig.json" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="WeatherMonitoringSystem\Configuration\botsConfig.json">
+    <Content Include="Configuration\botsConfig.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
