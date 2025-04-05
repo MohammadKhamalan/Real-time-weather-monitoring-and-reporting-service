@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 
 namespace Real_time_weather_monitoring_and_reporting_service.WeatherMonitoringSystem.Utilities
 {
-    class XmlWeatherDataConverter : IWeatherDataParser
+    public class XmlWeatherDataConverter : IWeatherDataParser
     {
         public WeatherData Convert(string InputData)
         {

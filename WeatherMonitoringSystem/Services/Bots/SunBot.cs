@@ -3,7 +3,7 @@ using Real_time_weather_monitoring_and_reporting_service.WeatherMonitoringSystem
 
 namespace Real_time_weather_monitoring_and_reporting_service.WeatherMonitoringSystem.Services.Bots
 {
-    class SunBot : IWeatherObserver
+   public class SunBot : IWeatherObserver
     {
         private readonly double threshold;
         private readonly string message;

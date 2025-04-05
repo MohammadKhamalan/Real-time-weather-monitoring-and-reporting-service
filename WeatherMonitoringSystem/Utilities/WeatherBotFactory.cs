@@ -6,7 +6,7 @@ using WeatherMonitoringSystem.Interfaces;
 
 namespace Real_time_weather_monitoring_and_reporting_service.WeatherMonitoringSystem.Utilities
 {
-    class WeatherBotFactory : IWeatherBotFactory
+   public class WeatherBotFactory : IWeatherBotFactory
     {
         private readonly Dictionary<WeatherBotType, BotConfiguration> botTypeConfiguration;
         public WeatherBotFactory(Dictionary<WeatherBotType, BotConfiguration> botTypeConfiguration)

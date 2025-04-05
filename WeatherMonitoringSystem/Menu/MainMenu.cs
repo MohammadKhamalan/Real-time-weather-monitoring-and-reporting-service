@@ -46,7 +46,7 @@ namespace Real_time_weather_monitoring_and_reporting_service.WeatherMonitoringSy
                
             }
         }
-        private IWeatherDataParser SelectFormatConverter(string inputData)
+        public IWeatherDataParser SelectFormatConverter(string inputData)
         {
             if (string.IsNullOrWhiteSpace(inputData))
                 throw new ArgumentException("Error: Input data cannot be empty or null.");
